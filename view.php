@@ -1,0 +1,154 @@
+<?php
+include('adnav.php');
+?>
+
+<html>
+
+<head>
+  <!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
+  <style>
+    body {
+      background: linear-gradient(90deg, #C7C5F4, #776BCC);
+    }
+
+    table {
+      margin-top: 10px;
+      width: 90%;
+      background-color: #ffffff;
+      border: 2px solid #454545;
+      border-radius: 20px;
+      border-collapse: collapse;
+      font-family: Rockwell;
+
+    }
+
+    th {
+      color: white;
+      background: #1faf5e;
+      padding: 10px 30px;
+    }
+
+    td {
+      padding: 8px 20px;
+    }
+
+    tr:hover {
+      padding: 8px 20px;
+      background: #a19fd2a8;
+      color: green;
+      font-weight: bold;
+    }
+
+    button {
+      color: white;
+      background-color: #25f;
+      border-radius: 5px;
+      padding: 7px 15px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 20px;
+      letter-spacing: 0.02em;
+    }
+  </style>
+
+</head>
+<script>
+  function exportToExcel() {
+    var location = 'data:application/vnd.ms-excel;base64,';
+    var excelTemplate = '<html> ' +
+      '<head> ' +
+      '<meta http-equiv="content-type" content="text/plain; charset=UTF-8"/> ' +
+      '</head> ' +
+      '<body> ' +
+      document.getElementById("table-conatainer").innerHTML +
+      '</body> ' +
+      '</html>'
+    window.location.href = location + window.btoa(excelTemplate);
+  }
+
+
+
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/rainabba/jquery-table2excel/1.1.0/dist/jquery.table2excel.min.js"></script>
+
+<body>
+  <center>
+
+
+    <button onclick="exportToExcel('tblData')">Export Table Data To Excel File</button>
+
+
+    <?php
+    include('conn.php');
+    if ($conn->connect_error) {
+      die("Connection failed: " . $conn->connect_error);
+    }
+
+    $sql = "SELECT * FROM register ";
+    $result = $conn->query($sql);
+
+
+    ?>
+    <div id="table-conatainer">
+      <table id="tblData" class="table table-striped table-dark my-3" border="1">
+
+        <tr>
+          <th>Name</th>
+          <th>Roll No</th>
+          <th>Email ID</th>
+          <th>Mobile No</th>
+          <th>Gender</th>
+          <th>DOB</th>
+          <th>Address</th>
+          <th>Qualification</th>
+          <th>Specilization</th>
+          <th>Qqrimage</th>
+
+        </tr>
+
+        <?php
+
+
+        if ($result->num_rows > 0) {
+          // output data of each row
+          while ($row = $result->fetch_assoc()) {
+
+
+            echo "	<tr>
+   				<td>" . $row['name'] . "</td>
+   				<td>" . $row['rollno'] . "</td>
+   				<td>" . $row['email'] . "</td>
+   				<td>" . $row['mobile'] . "</td>
+   				<td>" . $row['gender'] . "</td>
+   				<td>" . $row['dob'] . "</td>
+   				<td>" . $row['address'] . "</td>
+   				<td>" . $row['qualification'] . "</td>
+   				<td>" . $row['specialization'] . "</td>
+   				<td>" . $row['qrimage'] . "</td>
+   			</tr>";
+            ?>
+
+
+
+
+
+
+
+
+
+            <?php
+
+          }
+        } else {
+          echo "0 results";
+        }
+        $conn->close();
+        ?>
+  </center>
+
+  </table>
+  </div>
+</body>
+
+</html>

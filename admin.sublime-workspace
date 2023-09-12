@@ -1,0 +1,316 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"hea",
+				"head\tTag"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"margin",
+				"margin-left\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/xampp/htdocs/SmartAttendance/profile.php",
+		"/E/xampp/htdocs/SmartAttendance/qrgen.php",
+		"/E/xampp/htdocs/SmartAttendance/vendor/libern/qr-code-reader/src/QRCodeReader.php",
+		"/E/xampp/htdocs/SmartAttendance/vendor/libern/qr-code-reader/src/lib/qrcode/QRCodeReader.php",
+		"/E/xampp/htdocs/SmartAttendance/login.php",
+		"/E/xampp/htdocs/SmartAttendance/admin.php",
+		"/E/xampp/htdocs/inventory/homep.php",
+		"/E/xampp/htdocs/SmartAttendance/navigation.php",
+		"/E/xampp/htdocs/SmartAttendance/adnav.php",
+		"/E/xampp/htdocs/feedback/admin/dashboard.php",
+		"/E/xampp/htdocs/inventory/welcome.php",
+		"/E/xampp/htdocs/inventory/login.php",
+		"/E/xampp/htdocs/inventory/index.php",
+		"/E/xampp/htdocs/feedback/admin/dashboard_home.php",
+		"/E/xampp/htdocs/SmartAttendance/dashboard.php",
+		"/E/xampp/htdocs/SmartAttendance/conn.php",
+		"/E/xampp/htdocs/SmartAttendance/insert.php",
+		"/E/xampp/htdocs/SmartAttendance/Home.php",
+		"/E/xampp/htdocs/SmartAttendance/Register.php",
+		"/E/xampp/htdocs/SmartAttendance/demo.php",
+		"/E/xampp/htdocs/SmartAttendance/gethint.php",
+		"/E/xampp/htdocs/SmartAttendance/hint.php",
+		"/E/xampp/htdocs/qratt/in2.php",
+		"/E/xampp/htdocs/qratt/vendor/libern/qr-code-reader/src/QRCodeReader.php",
+		"/E/xampp/htdocs/qratt/vendor/autoload.php",
+		"/E/xampp/htdocs/qratt/index.php",
+		"/E/xampp/htdocs/qratt/qrcode.sql",
+		"/E/xampp/htdocs/qratt/gethint.php",
+		"/E/xampp/htdocs/chatroom/conn.php",
+		"/E/xampp/htdocs/event/index.php",
+		"/E/xampp/htdocs/event/registrar/attendance.php",
+		"/E/xampp/htdocs/event/registrar/.htaccess",
+		"/E/xampp/htdocs/DTR_Management_system/dtr_panel/dtr_dashboard/fetch_row/employee_row.php",
+		"/E/xampp/htdocs/DTR_Management_system/insert.php",
+		"/E/xampp/htdocs/inventory/conn1.php",
+		"/E/xampp/htdocs/DTR_Management_system/dtr_panel/dtr_dashboard/dashboard.php",
+		"/E/xampp/htdocs/DTR_Management_system/dtr_panel/dtr_dashboard/modal/addemployee_modal.php",
+		"/E/xampp/htdocs/DTR_Management_system/init/controllers/add_employee.php",
+		"/E/xampp/htdocs/DTR_Management_system/libs/phpqrcode/qrrscode.php",
+		"/E/xampp/htdocs/DTR_Management_system/dtr_panel/dtr_dashboard/manage_employee.php",
+		"/E/xampp/htdocs/DTR_Management_system/config/attendance_process.php",
+		"/E/xampp/htdocs/chatroom/register.php",
+		"/E/xampp/htdocs/SmartAttendance/images/630ada87636a9png",
+		"/E/xampp/htdocs/DTR_Management_system/employee/Dashboard/fetch_row/employee_row.php",
+		"/E/xampp/htdocs/DTR_Management_system/dtr_panel/dtr_dashboard/pages/examples/register.html",
+		"/E/xampp/htdocs/DTR_Management_system/employee/Dashboard/pages/examples/register.html",
+		"/E/xampp/htdocs/DTR_Management_system/employee/Dashboard/employee.php",
+		"/E/xampp/htdocs/DTR_Management_system/init/controllers/edit_employee.php",
+		"/E/xampp/htdocs/DTR_Management_system/init/model/class_model.php",
+		"/E/xampp/htdocs/DTR_Management_system/employee/Dashboard/dashboard.php",
+		"/E/xampp/htdocs/DTR_Management_system/employee/index.php",
+		"/E/xampp/htdocs/feedback/registration.php",
+		"/E/xampp/htdocs/feedback/index.php",
+		"/E/xampp/htdocs/Vitspoly/index.php",
+		"/E/xampp/htdocs/Vitspoly/footer.php",
+		"/E/xampp/htdocs/Vitspoly/header.php",
+		"/E/xampp/htdocs/Vitspoly/index.html",
+		"/E/xampp/htdocs/VitsPoly/index.php",
+		"/E/xampp/htdocs/VitsPoly/Home.php",
+		"/E/xampp/htdocs/Vitspoly/events.html",
+		"/E/xampp/htdocs/Vitspoly/scss/templates/_homepage.scss",
+		"/E/xampp/htdocs/ons/index.php",
+		"/E/xampp/htdocs/CRS/userlogin.php",
+		"/E/xampp/htdocs/ons/dashboard/uploadnote.php",
+		"/E/xampp/htdocs/ons/dashboard/index.php",
+		"/E/xampp/htdocs/ons/dashboard/notes.php",
+		"/E/xampp/htdocs/ons/includes/header.php",
+		"/E/xampp/htdocs/ons/includes/footer.php",
+		"/E/xampp/htdocs/ons/includes/navbar.php",
+		"/E/xampp/htdocs/ons/login.php",
+		"/E/xampp/htdocs/ons/dashboard/upload.php",
+		"/E/xampp/htdocs/ons/dashboard/userprofile.php",
+		"/E/xampp/htdocs/ons/signup.php",
+		"/E/xampp/htdocs/ons/verifytoken.php",
+		"/E/xampp/htdocs/CRS/official_login.php",
+		"/E/xampp/htdocs/ons/dashboard/includes/adminheader.php",
+		"/E/xampp/htdocs/ons/dashboard/includes/adminnav.php",
+		"/E/xampp/htdocs/CRS/home.php",
+		"/E/xampp/htdocs/CRS/complainer_page.php",
+		"/E/xampp/htdocs/erms/index.php",
+		"/E/xampp/htdocs/erms/includes/footer.php",
+		"/E/xampp/htdocs/erms/admin/includes/footer.php",
+		"/E/xampp/htdocs/erms/registererms.php",
+		"/E/xampp/htdocs/erms/css/sb-admin-2.css",
+		"/E/xampp/htdocs/ons/css/material-icons.css",
+		"/E/xampp/htdocs/ons/css/jquery-ui.css",
+		"/E/xampp/htdocs/ons/css/demo.css",
+		"/E/xampp/htdocs/ons/css/cms-home.css",
+		"/E/xampp/htdocs/ons/css/style.css",
+		"/E/xampp/htdocs/ons/css/loginstyle.css",
+		"/E/xampp/htdocs/feedback/header.php",
+		"/E/xampp/htdocs/onscpy/login.php",
+		"/E/xampp/htdocs/onscpy/signup.php",
+		"/E/xampp/htdocs/onscpy/includes/connection.php",
+		"/E/xampp/htdocs/onscpy/styles.css",
+		"/E/xampp/htdocs/feedback/footer.php",
+		"/E/xampp/htdocs/feedback/footer1.php",
+		"/E/xampp/htdocs/library/includes/header.php",
+		"/E/xampp/htdocs/library/admin/includes/header.php",
+		"/E/xampp/htdocs/library/signup.php",
+		"/E/xampp/htdocs/library/adminlogin.php",
+		"/E/xampp/htdocs/library/admin/dashboard.php",
+		"/E/xampp/htdocs/library/admin/includes/footer.php",
+		"/E/xampp/htdocs/library/admin/assets/css/bootstrap.css",
+		"/E/xampp/htdocs/library/user-forgot-password.php",
+		"/E/xampp/htdocs/library/index.php",
+		"/E/xampp/htdocs/library/captcha.php",
+		"/E/xampp/htdocs/library/includes/footer.php",
+		"/E/xampp/htdocs/ons/recoverpassword.php",
+		"/E/xampp/htdocs/crmproject/createaccount.php",
+		"/E/xampp/htdocs/crmproject/conn3.php",
+		"/E/xampp/htdocs/crmproject/conn2.php",
+		"/E/xampp/htdocs/crmproject/conn1.php",
+		"/E/xampp/htdocs/crmproject/alert.php",
+		"/E/xampp/htdocs/crmproject/ADDP.php",
+		"/E/xampp/htdocs/crmproject/account_conn.php",
+		"/E/xampp/htdocs/crmproject/homep.php",
+		"/C/Users/hp/Downloads/crm.sql",
+		"/E/xampp/htdocs/crmproject/update_company.php",
+		"/E/xampp/htdocs/crmproject/welcome.php",
+		"/E/xampp/htdocs/crmproject/edit_company.php",
+		"/E/xampp/htdocs/crmproject/display.php",
+		"/E/xampp/htdocs/crmproject/delete_company.php",
+		"/E/xampp/htdocs/crmproject/index.php",
+		"/E/xampp/htdocs/crmproject/PRODUCTD.php",
+		"/E/xampp/htdocs/crmproject/login.php",
+		"/E/xampp/htdocs/inventory/ADDP.php",
+		"/E/xampp/htdocs/inventory/conn3.php"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "admin.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
